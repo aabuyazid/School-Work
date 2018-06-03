@@ -1,0 +1,34 @@
+bool member = false;        /* flag for whether x is already a member */
+    int location;                /* keep track of where x should be inserted */
+    int index;
+    if(isEmptySet(self)) {
+        createSingletonSet(self, x);
+        return;
+    }
+    for(index = 0; index < (self->len - 1); index++) {
+        if (x == self->elements[index]) {
+            member = true;
+            break;
+        }
+        if (x > self->elements[index] && x < self->elements[index + 1]) {
+            index++;
+            location = index;
+            break;
+        }
+    }
+
+    /* if not a member, add x into elements at index and shift everything after to the right */
+    if(! member) {
+        if((index == (self->len - 1)) && (x > self->elements[index])) {
+            self->elements[index + 1] = x;
+        }
+        else {
+            while (index < (self->len - 1)) {
+                self->elements[index + 1] = self->elements[index];
+            }
+            self->elements[location] = x;
+        }
+        self->len++;
+    }
+
+    return;

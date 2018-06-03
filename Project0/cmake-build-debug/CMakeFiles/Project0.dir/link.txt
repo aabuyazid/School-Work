@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Project0.dir/ProblemF.c.o  -o Project0.exe -Wl,--out-implib,libProject0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

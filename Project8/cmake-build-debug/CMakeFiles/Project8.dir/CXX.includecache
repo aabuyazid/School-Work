@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Input.cpp
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+Parse.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Parse.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Node.cpp
+Node.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Node.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Node.h
+vector
+-
+string.h
+-
+iostream
+-
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Parse.h
+stdint.h
+-
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Symbols.cpp
+Symbols.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Symbols.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Symbols.h
+map
+-
+string.h
+-
+vector
+-
+Node.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Node.h
+Parse.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Parse.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Text.cpp
+iostream
+-
+Text.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Text.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Text.h
+string.h
+-
+Parse.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Parse.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/main.cpp
+iostream
+-
+Parse.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Parse.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+string
+-
+Text.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Text.h
+Symbols.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/Symbols.h
+
