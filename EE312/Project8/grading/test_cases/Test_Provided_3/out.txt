@@ -1,0 +1,7 @@
+output 42 -- 42
+output \+ 42 42 -- 84
+output \+ 42 \+ 10 5 -- 57
+output \* 5 \+ 2 2 -- 20
+output \+ \* 5 3 \+ 4 4 -- 23
+output - 0 4 -- -4
+Hello World

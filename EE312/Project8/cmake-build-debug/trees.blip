@@ -1,0 +1,151 @@
+// Tree Test Cases
+
+// Test 1 - Whitespace
+text "___________________Whitespace Test___________________\n"
+var x 0
+var passed 0
+var failed 0
+text "x = 0\n"
+set x
+*
+    + 5 3
+    - x 1
+text "* \n\t + 5 3 \n\t - x 1 == -8\n"
+set passed == x ~ 8
+output passed
+text " tests passed\n"
+set failed + failed ! passed
+output failed
+text " tests failed\n"
+
+// Test 2 - Giant Tree Tests
+text "___________________Giant Tree Tests___________________\r\n"
+var giantTrees 0
+text "Expression: ! ~ ! ~ ! * + 756 >= 20 % <= > && * 3 2 < 1 0 \n"
+text "            || <= 7 7 ! != 41 42 3 30 - ~ * 75 / ! == 2 2 && * ~\n"
+text "            3 2 75 + && 1 ! / 46 23 / 23 2 \n"
+set x ! ~ ! ~ ! * + 756 >= 20 % <= > && * 3 2 < 1 0
+|| <= 7 7 ! != 41 42 3 30 - ~ * 75 / ! == 2 2 && * ~
+3 2 75 + && 1 ! / 46 23 / 23 2
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+var pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+
+set giantTrees ~ 8327
+text "Expression: * + 756 >= 20 % <= > && * 3 2 < 1 0 \n"
+text "                  || <= 7 7 ! != 41 42 3 30 - ~ * 75 / ! == 2 2 && * ~\n"
+text "                  3 2 75 + && 1 ! / 46 23 / 23 2 = \n"
+set x * + 756 >= 20 % <= > && * 3 2 < 1 0
+      || <= 7 7 ! != 41 42 3 30 - ~ * 75 / ! == 2 2 && * ~
+      3 2 75 + && 1 ! / 46 23 / 23 2
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees 0
+text "Expression: == + 3 / - % 2530 139 != > 20 23 < 1 1 || <= >= 30 17 70 0 \n"
+text "                  - 4 * 2 && 3 / 1 1\n"
+set x == + 3 / - % 2530 139 != > 20 23 < 1 1 || <= >= 30 17 70 0
+            - 4 * 2 && 3 / 1 1
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees 33
+text "Expression: + + 3 / - % 2530 139 != > 20 23 < 1 1 || <= >= 30 17 70 0 \n"
+text "                  - 4 * 2 && 3 / 1 1\n"
+set x + + 3 / - % 2530 139 != > 20 23 < 1 1 || <= >= 30 17 70 0
+            - 4 * 2 && 3 / 1 1
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+// Test 3 - Unary Tree Tests
+text "___________________Unary Tree Tests___________________\r\n"
+set giantTrees 0
+text "Expression: ~ ! ~ ! ~ ! 1000 \n"
+set x ~ ! ~ ! ~ ! 1000
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees ~ 1
+text "Expression: ~ ~ ~ ! ! 42 \n"
+set x ~ ~ ~ ! ! 42
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees  1
+text "Expression: ! ~ ~ ! 3 \n"
+set x ! ~ ~ ! 3
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees  1
+text "Expression: ! ! ! ! ! 0 \n"
+set x ! ! ! ! ! 0
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees ~ 20
+text "Expression: ~ ~ ~ ~ ~ 20 \n"
+set x ~ ~ ~ ~ ~ 20
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed \n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
