@@ -1,3 +1,0 @@
-/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project8/cmake-build-debug/CMakeFiles/Project8.dir
