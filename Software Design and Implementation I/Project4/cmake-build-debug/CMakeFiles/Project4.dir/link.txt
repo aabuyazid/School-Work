@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Project4.dir/main.cpp.o CMakeFiles/Project4.dir/Project4.cpp.o CMakeFiles/Project4.dir/MyString.cpp.o  -o Project4.exe -Wl,--out-implib,libProject4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/Invent.h
+MyString.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/MyString.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/MyString.cpp
+stdio.h
+-
+stdlib.h
+-
+MyString.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/MyString.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/MyString.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/Project4.cpp
+stdio.h
+-
+assert.h
+-
+MyString.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/MyString.h
+Invent.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/Invent.h
+
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/main.cpp
+stdio.h
+-
+stdlib.h
+-
+MyString.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/MyString.h
+Invent.h
+/cygdrive/c/Users/Arkan Abuyazid/Documents/UT-Sp18/EE312/Project4/Invent.h
+

@@ -1,0 +1,7 @@
+// Set <Project5.cpp>
+// EE 312 Project 5 submission by
+// <Your Name Here>
+// <Your EID>
+// Slip days used: <0>
+// Spring 2018
+// Copy-Paste the above lines at the top of your submitted files.
