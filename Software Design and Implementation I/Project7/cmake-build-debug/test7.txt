@@ -1,0 +1,312 @@
+Summarize
+Purchase Vallath Rattles 606
+Inventory Diapers 418
+Purchase Moez Diapers 484
+Purchase Miguel Diapers 255
+Inventory Rattles 557
+Inventory Bottles 616
+Inventory Diapers 258
+Summarize
+Purchase Wenqi Rattles 812
+Purchase Wenqi Bottles 84
+Inventory Rattles 657
+Summarize
+Inventory Bottles 952
+Summarize
+Inventory Bottles 151
+Purchase Vallath Rattles 28
+Purchase Harrison Bottles 161
+Purchase Nav Rattles 457
+Purchase Vallath Diapers 601
+Purchase Nav Bottles 140
+Inventory Bottles 799
+Summarize
+Summarize
+Summarize
+Summarize
+Purchase Nav Rattles 554
+Inventory Bottles 167
+Summarize
+Summarize
+Inventory Bottles 767
+Inventory Rattles 249
+Inventory Diapers 183
+Inventory Bottles 537
+Inventory Bottles 985
+Inventory Bottles 495
+Purchase Vallath Diapers 381
+Inventory Diapers 50
+Summarize
+Purchase Eric Diapers 0
+Inventory Rattles 0
+Purchase Eric Diapers 368
+Summarize
+Purchase Vallath Diapers 0
+Summarize
+Summarize
+Summarize
+Summarize
+Inventory Diapers 0
+Summarize
+Summarize
+Summarize
+Purchase Eric Rattles 214
+Inventory Rattles 868
+Purchase Wenqi Bottles 15
+Summarize
+Summarize
+Inventory Bottles 0
+Purchase Moez Bottles 0
+Purchase Miguel Rattles 711
+Summarize
+Inventory Bottles 882
+Summarize
+Summarize
+Purchase Harrison Diapers 88
+Inventory Rattles 429
+Summarize
+Inventory Rattles 7
+Purchase Nav Diapers 464
+Summarize
+Inventory Diapers 44
+Summarize
+Purchase Eric Bottles 616
+Summarize
+Summarize
+Summarize
+Inventory Bottles 21
+Summarize
+Inventory Diapers 280
+Inventory Bottles 764
+Inventory Rattles 600
+Purchase Vallath Bottles 300
+Summarize
+Inventory Diapers 324
+Summarize
+Purchase Eric Bottles 877
+Summarize
+Summarize
+Inventory Bottles 408
+Inventory Rattles 433
+Summarize
+Purchase Moez Diapers 75
+Purchase Moez Rattles 10
+Purchase Eric Bottles 9
+Inventory Diapers 582
+Summarize
+Inventory Rattles 778
+Purchase Vallath Bottles 419
+Summarize
+Summarize
+
+Summarize
+Quit
+/** test4 Results should be: **/
+There are 0 Bottles, 0 Diapers and 0 Rattles in inventory
+we have had a total of 0 different customers
+no one has purchased any Bottles
+no one has purchased any Diapers
+no one has purchased any Rattles
+Sorry Vallath, we only have 0 Rattles
+Sorry Moez, we only have 418 Diapers
+There are 616 Bottles, 421 Diapers and 557 Rattles in inventory
+we have had a total of 1 different customers
+no one has purchased any Bottles
+Miguel has purchased the most Diapers (255)
+no one has purchased any Rattles
+Sorry Wenqi, we only have 557 Rattles
+There are 532 Bottles, 421 Diapers and 1214 Rattles in inventory
+we have had a total of 2 different customers
+Wenqi has purchased the most Bottles (84)
+Miguel has purchased the most Diapers (255)
+no one has purchased any Rattles
+There are 1484 Bottles, 421 Diapers and 1214 Rattles in inventory
+we have had a total of 2 different customers
+Wenqi has purchased the most Bottles (84)
+Miguel has purchased the most Diapers (255)
+no one has purchased any Rattles
+Sorry Vallath, we only have 421 Diapers
+There are 2133 Bottles, 421 Diapers and 729 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Miguel has purchased the most Diapers (255)
+Nav has purchased the most Rattles (457)
+There are 2133 Bottles, 421 Diapers and 729 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Miguel has purchased the most Diapers (255)
+Nav has purchased the most Rattles (457)
+There are 2133 Bottles, 421 Diapers and 729 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Miguel has purchased the most Diapers (255)
+Nav has purchased the most Rattles (457)
+There are 2133 Bottles, 421 Diapers and 729 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Miguel has purchased the most Diapers (255)
+Nav has purchased the most Rattles (457)
+There are 2300 Bottles, 421 Diapers and 175 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Miguel has purchased the most Diapers (255)
+Nav has purchased the most Rattles (1011)
+There are 2300 Bottles, 421 Diapers and 175 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Miguel has purchased the most Diapers (255)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+Sorry Eric, we only have 273 Diapers
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5084 Bottles, 273 Diapers and 424 Rattles in inventory
+we have had a total of 5 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5069 Bottles, 273 Diapers and 1078 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5069 Bottles, 273 Diapers and 1078 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5069 Bottles, 273 Diapers and 367 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5951 Bottles, 273 Diapers and 367 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5951 Bottles, 273 Diapers and 367 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5951 Bottles, 185 Diapers and 796 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+Sorry Nav, we only have 185 Diapers
+There are 5951 Bottles, 185 Diapers and 803 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5951 Bottles, 229 Diapers and 803 Rattles in inventory
+we have had a total of 6 different customers
+Harrison has purchased the most Bottles (161)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5335 Bottles, 229 Diapers and 803 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (616)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5335 Bottles, 229 Diapers and 803 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (616)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5335 Bottles, 229 Diapers and 803 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (616)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5356 Bottles, 229 Diapers and 803 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (616)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5820 Bottles, 509 Diapers and 1403 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (616)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5820 Bottles, 833 Diapers and 1403 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (616)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 4943 Bottles, 833 Diapers and 1403 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (1493)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 4943 Bottles, 833 Diapers and 1403 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (1493)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5351 Bottles, 833 Diapers and 1836 Rattles in inventory
+we have had a total of 6 different customers
+Eric has purchased the most Bottles (1493)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 5342 Bottles, 1340 Diapers and 1826 Rattles in inventory
+we have had a total of 7 different customers
+Eric has purchased the most Bottles (1502)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 4923 Bottles, 1340 Diapers and 2604 Rattles in inventory
+we have had a total of 7 different customers
+Eric has purchased the most Bottles (1502)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 4923 Bottles, 1340 Diapers and 2604 Rattles in inventory
+we have had a total of 7 different customers
+Eric has purchased the most Bottles (1502)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+There are 4923 Bottles, 1340 Diapers and 2604 Rattles in inventory
+we have had a total of 7 different customers
+Eric has purchased the most Bottles (1502)
+Vallath has purchased the most Diapers (381)
+Nav has purchased the most Rattles (1011)
+
+/********* end of test 4 *************/
