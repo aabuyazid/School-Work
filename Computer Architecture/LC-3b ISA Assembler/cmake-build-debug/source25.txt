@@ -1,0 +1,12 @@
+.ORIG x3000		;exit(3)
+.FILL x3000		;
+.FILL x3010		;
+.fill x3000		;
+.fill #-1000		;
+.FiLl xFC18		;
+.fill x-3E8		;
+.fill xFFFF		;
+.fill #65535		;
+.fill x-8001		; this should break because too large
+			;-32769
+	.END

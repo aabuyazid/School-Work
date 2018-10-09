@@ -1,0 +1,9 @@
+.ORIG x3000		;This should assemble
+			;Tests shifts
+LSHF	r3, r2, #5	;
+RSHFL	r6, r7, #15	; Max value to shift by
+RSHFA   r4, r4, xF	; Max value to shift by
+LSHF	r5, r7, #0	; Min value	
+RSHFL	R4, R3, x0	;
+
+	.END

@@ -1,0 +1,9 @@
+.ORIG x3000		;This should assemble
+			;JMP, JSRR, RET, RTI
+JSRR 	R7		;
+JMP	R7		;
+RET			;
+RTI			;	
+JMP 	R4		;
+JSRR	R0		;	
+	.END

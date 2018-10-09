@@ -1,0 +1,10 @@
+.ORIG x3000		;This should assemble, tests loads/stores
+LDB	r3, r2, #10	;
+LDW	r1,r7, #11	; 
+STB	r4, r5, x5	;
+STW	R6,R6, x21	; This should be a negative value
+STW	r2, r1, #-11	;
+STB 	r0, r0, #-32	; This should be max negative value
+LDW	r5, r5, x-20	;
+LDB	r5, r5, x3F	; -1?
+	.END

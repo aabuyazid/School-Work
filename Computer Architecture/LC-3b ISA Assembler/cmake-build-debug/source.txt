@@ -1,0 +1,4 @@
+.Orig x3000
+	
+LEA R0, DATA1	;data1 isn't defined in assembly code exit(1)
+.eNd

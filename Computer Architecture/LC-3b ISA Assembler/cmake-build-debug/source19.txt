@@ -1,0 +1,11 @@
+.ORIG x3000		;This should assemble, tests AND 					;limitations
+AND 	r0, r0, r0	;
+AND 	r0, r1, r2	;
+AND 	R2, R3, #0	;
+AND	r4, r5, x0	;
+AND	r6, r7, #15	; max value for imm5
+AND 	r2, r4, xF	; value of 15
+AND	r2, r7, #-16	;
+AND	r7, r5, x-F	; negative 15
+AND	r1,r2, x10	; negative 16... I think this should work
+	.END

@@ -1,0 +1,2 @@
+.ORIG x3000		;This should assemble
+	.END

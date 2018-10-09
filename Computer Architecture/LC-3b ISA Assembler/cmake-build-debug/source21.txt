@@ -1,0 +1,10 @@
+.ORIG x3000		;This should assemble.
+			;Tests traps
+TRAP	x23		; 
+TRAP	x00		;
+TRAP	#255		; This should be the largest value
+TRAP	xFF		; Nothing above 255 or FF should work
+			;Add Line here to break	
+			; Exit(3) for label too big
+			;exit(4) if operands off
+	.END

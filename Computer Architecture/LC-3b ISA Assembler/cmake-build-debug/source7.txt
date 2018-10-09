@@ -1,0 +1,6 @@
+.ORIG x1000  ;exit(2)
+	ABC  ; it is considered an opcode, but I think it should 
+	     ;be a label? 
+	     ; try creating a function that checks if this is the
+	     ; only argument passed if it breaks
+	.END

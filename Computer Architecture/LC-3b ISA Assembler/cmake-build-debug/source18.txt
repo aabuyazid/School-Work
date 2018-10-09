@@ -1,0 +1,261 @@
+.ORIG x3000		;This function tests all branches
+REPeat ADD r2,r1, r0	;It should compile
+REPEAT2 AND R2, R2, R0	; branch range is -256 to 255
+BR      REPEAT		; offset3
+JMP	r5		;
+JSRR	r4		;
+LDB	R0, R0, #0	;
+LDW	R0, r0, #0	;
+BRn	REPEAT2		;offset7
+NOT	r1,r1		;
+RET			; 10
+LSHF 	r2,r1, #3	;
+RSHFL 	R2, R2, #1	; 
+BRz     REPEAT		;offset13
+RSHFA   r2,r2,#5	; This should compile
+STB 	R7, R7, #10	;
+STW	R7, R7, #10	;
+TRAP	x23		; trap vector table
+BRp	REPEAT2		; offset17 
+XOR	R3,R3,#12	;
+xor	R3,r3,r3	; 20
+NOP			;
+NOP			;
+BRnz    REPEAT		; offset23
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnp	REPEAT2		;offset27
+NOP			;
+NOP			; 30
+NOP			;
+NOP			;
+BRzp    REPEAT		;offset33
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;offset37
+NOP			;
+NOP			; 40
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;offset43
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnp	REPEAT2		;offset47
+NOP			;50
+HALT			;
+NOP			;
+NOP			;
+BRzp    REPEAT		;offset53
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;offset57
+NOP			;60
+NOP			; 
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;offset63
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnp	REPEAT2		;70 offset67
+NOP			;
+NOP			; 
+NOP			;
+NOP			;
+BRzp    REPEAT		;offset73
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;80 offset77
+NOP			;
+NOP			; 
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;offset83
+NOP			;
+NOP			;
+NOP			;
+NOP			;90
+BRnp	REPEAT2		;offset87
+NOP			;
+NOP			; 
+NOP			;
+NOP			;
+BRzp    REPEAT		;offset93
+NOP			;
+NOP			;
+NOP			;
+NOP			;100
+BRnzp	REPEAT2		;offset97
+NOP			;
+NOP			; 
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;
+NOP			;
+NOP			;
+NOP			;110
+NOP			;
+BRnp	REPEAT2		;offset107
+NOP			;
+NOP			; 
+NOP			;
+NOP			;
+BRzp    REPEAT		;
+NOP			;
+NOP			;
+NOP			;120
+NOP			;
+BRnzp	REPEAT2		;offset117
+NOP			;
+NOP			; 
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;
+NOP			;
+NOP			;130
+NOP			;
+NOP			;
+BRnp	REPEAT2		;offset127
+NOP			;
+NOP			; 
+NOP			;
+NOP			;
+BRzp    REPEAT		;
+NOP			;
+NOP			;140
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;offset137
+NOP			;
+NOP			;
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;
+NOP			;150
+NOP			;
+NOP			;
+NOP			;
+BRnp	REPEAT2		;offset147
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRzp    REPEAT		;
+NOP			;160
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;offset157
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;
+NOP			;170
+NOP			;
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnp	REPEAT2		;180
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRzp    REPEAT		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;190
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;
+NOP			;
+NOP			;
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;200
+BRnz    REPEAT		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnp	REPEAT2		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;210
+BRzp    REPEAT		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;220
+BRnzp	REPEAT2		;
+NOP			;
+NOP			;
+xor	R3,r3,r3	; 
+NOP			;
+NOP			;
+BRnz    REPEAT		;
+NOP			;
+NOP			;
+TRAP	x23		;230
+NOP			;
+BRnp	REPEAT2		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRzp    REPEAT		;
+NOP			;
+NOP			;
+TRAP	x22		;240
+NOP			;
+BRnzp	REPEAT2		;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+BRnzp	REPEAT2		;
+NOP			;
+NOP			;
+xor	R3,r3,r3	;250 
+NOP			;
+NOP			;
+BRnz    REPEAT		;
+NOP			;
+NOP			;
+NOP			;
+TRAP	x21		;260
+TRAP	x20		;270
+	.END
+this stuff  down here shouldn't be read, hi Arkan.

@@ -1,0 +1,6 @@
+.ORIG x1000		; exit(3) offset not even
+	ADD R0, R1, #1
+	AND R6, R4, R2
+	XOR R5, R3, #-1
+	NOT R5, R3
+	.END

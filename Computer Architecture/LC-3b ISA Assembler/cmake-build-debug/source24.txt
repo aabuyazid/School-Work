@@ -1,0 +1,1108 @@
+.ORIG x3000		;This should assemble
+			; change the locations of the labels by
+			;one and it should break
+			;range of a jsr is 1023, -1024
+NOP			; MOVE label here to break
+label JSR	LABEL2	;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 100
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 200
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 300
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 400
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 500
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 600
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 700
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 800
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 900
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 1000
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 10
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 20
+NOP			;
+NOP			;
+LABEL2 JSR LABEL	;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 30
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 40
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 50
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 60
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 70
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 80
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 90
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+NOP			;
+nop			;
+nop			; 1100
+
+	.END

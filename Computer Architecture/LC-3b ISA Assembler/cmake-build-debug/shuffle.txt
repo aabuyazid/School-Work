@@ -1,0 +1,18 @@
+.ORIG x3000
+
+
+        AND R1, R1, #0
+        AND R2, R2, #0,
+        LEA R3, STORE
+        STB R0, R3, #0
+        RSHFL R0, R0, #8
+        STB R0, R3, #1
+        LDB R1, R3, #0
+        LDB R2, R3, #1
+        ADD R0, R1, R2
+        LDW R3, R3, #1
+        STW R0, R3, #1
+        HALT
+STORE   .FILL x0000
+RESULT  .FILL x3050
+        .END

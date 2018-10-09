@@ -1,0 +1,3 @@
+.ORIG x3000		;This should assemble
+AND R0, R0 , LABEL	; exit(4)
+	.END
